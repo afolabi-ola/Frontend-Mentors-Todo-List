@@ -1,0 +1,29 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem auto 0;
+  padding: 1rem 0;
+  color: #707070;
+}
+
+.filter-button,
+.clear-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.filter-button:hover,
+.clear-button:hover {
+  color: white;
+}
+
+#active-filter-btn {
+  color:hsl(220, 98%, 61%);
+}
+#active-btn {
+  color: white;
+}

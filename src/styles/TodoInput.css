@@ -1,0 +1,43 @@
+.input-container {
+  background-color: hsl(235, 24%, 19%);
+  width: 40%;
+  padding: 0rem 0.8rem;
+  border-radius: 5px;
+  display: flex;
+}
+
+.form-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: -10rem 0;
+}
+
+.input {
+  padding: 1rem 0;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(235, 24%, 19%);
+  color: white;
+  font-size: 1rem;
+  outline: none;
+}
+
+input[type="checkbox"].disabled {
+  /* Hide the default checkbox */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 50%;
+
+}
+.disabled-cont{
+  padding: 1rem 2rem 0 0rem;
+  width: 5%;
+
+}

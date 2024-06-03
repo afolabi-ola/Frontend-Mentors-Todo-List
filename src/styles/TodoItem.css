@@ -1,0 +1,59 @@
+.item-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem 0 0.8rem 0;
+  border-bottom: 1px solid #3a3a4f;
+}
+
+.item-container:last-child {
+  border-bottom: none;
+}
+
+.text {
+  cursor: pointer;
+}
+
+.text.completed {
+  text-decoration: line-through;
+  color: #707070;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #707070;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+input[type="checkbox"].able-checkbox {
+  /* Hide the default checkbox */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+/* Styling for when the checkbox is checked */
+input[type="checkbox"]:checked.able-checkbox {
+  background-image: url("../../public/images/icon-check.svg"),
+    linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+  background-size: 10px 10px cover;
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  border: none;
+}
+
+input[type="checkbox"]:hover.able-checkbox {
+  border: 1px solid hsl(192, 100%, 67%);
+}
+.check-list {
+  display: flex;
+  justify-content: space-between;
+}
